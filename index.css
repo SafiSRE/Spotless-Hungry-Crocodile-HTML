@@ -719,10 +719,6 @@
   text-align: center;
   font-family: "Fira Sans";
 }
-.pricing-tabs {
-  display: flex;
-  align-items: flex-start;
-}
 .pricing-container {
   gap: var(--dl-space-space-twounits);
   width: 100%;
