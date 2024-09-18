@@ -72,6 +72,9 @@
   flex-direction: column;
   justify-content: center;
 }
+.features1-feature1-title {
+  font-family: "Fira Sans";
+}
 .features1-tab-horizontal2 {
   gap: var(--dl-space-space-twounits);
   cursor: pointer;
@@ -102,6 +105,9 @@
   flex-direction: column;
   justify-content: center;
 }
+.features1-feature2-title {
+  font-family: "Fira Sans";
+}
 .features1-tab-horizontal3 {
   gap: var(--dl-space-space-twounits);
   cursor: pointer;
@@ -131,6 +137,9 @@
   flex-shrink: 0;
   flex-direction: column;
   justify-content: center;
+}
+.features1-feature3-title {
+  font-family: "Fira Sans";
 }
 @media(max-width: 991px) {
   .features1-container2 {

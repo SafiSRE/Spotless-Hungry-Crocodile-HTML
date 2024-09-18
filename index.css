@@ -9,7 +9,7 @@
   background-color: var(--dl-color-theme-neutral-light);
 }
 .navbar-navbar-interactive {
-  width: 100%;
+  width: 1234px;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
   align-items: center;
@@ -25,14 +25,17 @@
 .navbar-desktop-menu {
   flex: 1;
   display: flex;
+  position: relative;
   justify-content: space-between;
 }
 .navbar-links1 {
   gap: var(--dl-space-space-twounits);
   flex: 1;
+  width: 609px;
+  height: 45px;
   display: flex;
   align-items: center;
-  margin-left: var(--dl-space-space-twounits);
+  margin-left: 154px;
   flex-direction: row;
   justify-content: flex-start;
 }
@@ -46,9 +49,15 @@
   display: flex;
   flex-direction: row;
 }
+.navbar-link6 {
+  text-decoration: none;
+}
 .navbar-action21 {
   display: flex;
   flex-direction: row;
+}
+.navbar-link7 {
+  text-decoration: none;
 }
 .navbar-burger-menu {
   display: none;
@@ -160,16 +169,19 @@
   flex-direction: column;
 }
 .hero-text1 {
-  text-align: center;
-}
-.hero-text2 {
-  text-align: center;
+  font-family: "Fira Sans";
 }
 .hero-actions {
   gap: var(--dl-space-space-unit);
   display: flex;
   align-items: flex-start;
   padding-top: var(--dl-space-space-unit);
+}
+.hero-text3 {
+  text-decoration: none;
+}
+.hero-text4 {
+  text-decoration: none;
 }
 .hero-content2 {
   gap: var(--dl-space-space-oneandhalfunits);
@@ -379,6 +391,9 @@
   flex-direction: column;
   justify-content: center;
 }
+.features1-feature1-title {
+  font-family: "Fira Sans";
+}
 .features1-tab-horizontal2 {
   gap: var(--dl-space-space-twounits);
   cursor: pointer;
@@ -409,6 +424,9 @@
   flex-direction: column;
   justify-content: center;
 }
+.features1-feature2-title {
+  font-family: "Fira Sans";
+}
 .features1-tab-horizontal3 {
   gap: var(--dl-space-space-twounits);
   cursor: pointer;
@@ -438,6 +456,9 @@
   flex-shrink: 0;
   flex-direction: column;
   justify-content: center;
+}
+.features1-feature3-title {
+  font-family: "Fira Sans";
 }
 @media(max-width: 991px) {
   .features1-container2 {
@@ -470,7 +491,7 @@
   transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-2deg) skew(0deg, 0deg);
   align-items: center;
   border-radius: var(--dl-radius-radius-cardradius);
-  justify-content: space-between;
+  justify-content: flex-start;
   transform-style: preserve-3d;
   background-color: var(--dl-color-theme-accent1);
 }
@@ -497,12 +518,19 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.cta-text1 {
+  color: var(--dl-color-theme-neutral-dark);
+  font-family: "Fira Sans";
+}
 .cta-actions {
   gap: var(--dl-space-space-oneandhalfunits);
   flex: 1;
   display: flex;
   align-items: flex-start;
   justify-content: flex-end;
+}
+.cta-link {
+  text-decoration: none;
 }
 @media(max-width: 767px) {
   .cta-container2 {
@@ -517,7 +545,7 @@
     align-self: stretch;
     justify-content: center;
   }
-  .cta-button {
+  .cta-link {
     flex: 1;
   }
 }
@@ -570,6 +598,9 @@
   flex-direction: column;
   justify-content: center;
 }
+.features2-feature1-title {
+  font-family: "Fira Sans";
+}
 .features2-tab-horizontal2 {
   gap: var(--dl-space-space-twounits);
   cursor: pointer;
@@ -600,6 +631,9 @@
   flex-direction: column;
   justify-content: center;
 }
+.features2-feature2-title {
+  font-family: "Fira Sans";
+}
 .features2-tab-horizontal3 {
   gap: var(--dl-space-space-twounits);
   cursor: pointer;
@@ -629,6 +663,9 @@
   flex-shrink: 0;
   flex-direction: column;
   justify-content: center;
+}
+.features2-feature3-title {
+  font-family: "Fira Sans";
 }
 .features2-image-container {
   height: 100%;
@@ -712,9 +749,7 @@
 }
 .pricing-text11 {
   text-align: center;
-}
-.pricing-text12 {
-  text-align: center;
+  font-family: "Fira Sans";
 }
 .pricing-tabs {
   display: flex;
@@ -808,6 +843,7 @@
 }
 .pricing-text18 {
   font-size: 48px;
+  font-family: "Fira Sans";
 }
 .pricing-list1 {
   gap: var(--dl-space-space-unit);
@@ -839,6 +875,9 @@
 }
 .pricing-button14 {
   width: 100%;
+}
+.pricing-text23 {
+  text-decoration: none;
 }
 .pricing-column2 {
   gap: var(--dl-space-space-twounits);
@@ -875,6 +914,7 @@
 }
 .pricing-text25 {
   font-size: 48px;
+  font-family: "Fira Sans";
 }
 .pricing-list2 {
   gap: var(--dl-space-space-unit);
@@ -914,6 +954,9 @@
 .pricing-button15 {
   width: 100%;
 }
+.pricing-text31 {
+  text-decoration: none;
+}
 .pricing-column3 {
   gap: var(--dl-space-space-twounits);
   flex: 1;
@@ -948,6 +991,7 @@
 }
 .pricing-text33 {
   font-size: 48px;
+  font-family: "Fira Sans";
 }
 .pricing-list3 {
   gap: var(--dl-space-space-unit);
@@ -993,6 +1037,9 @@
 }
 .pricing-button16 {
   width: 100%;
+}
+.pricing-text40 {
+  text-decoration: none;
 }
 .pricing-container2 {
   gap: 32px;
@@ -1277,10 +1324,16 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.steps-text10 {
+  font-family: "Fira Sans";
+}
 .steps-actions {
   gap: var(--dl-space-space-unit);
   display: flex;
   align-items: flex-start;
+}
+.steps-text12 {
+  text-decoration: none;
 }
 .steps-container3 {
   grid-area: span 1/span 1/span 1/span 1;
@@ -1291,6 +1344,9 @@
   transform: rotate(-2deg);
   margin-bottom: var(--dl-space-space-twounits);
   background-color: var(--dl-color-theme-accent1);
+}
+.steps-text13 {
+  font-family: "Fira Sans";
 }
 .steps-text14 {
   text-align: center;
@@ -1310,6 +1366,9 @@
   margin-bottom: var(--dl-space-space-twounits);
   background-color: var(--dl-color-theme-accent2);
 }
+.steps-text16 {
+  font-family: "Fira Sans";
+}
 .steps-text17 {
   text-align: center;
 }
@@ -1328,6 +1387,9 @@
   margin-bottom: var(--dl-space-space-twounits);
   background-color: var(--dl-color-theme-accent1);
 }
+.steps-text19 {
+  font-family: "Fira Sans";
+}
 .steps-text20 {
   text-align: center;
 }
@@ -1344,6 +1406,9 @@
   position: sticky;
   transform: rotate(2deg);
   background-color: var(--dl-color-theme-accent2);
+}
+.steps-text22 {
+  font-family: "Fira Sans";
 }
 .steps-text23 {
   text-align: center;
@@ -1405,8 +1470,8 @@
   margin-bottom: var(--dl-space-space-fourunits);
   flex-direction: column;
 }
-.testimonial-text11 {
-  text-align: center;
+.testimonial-text10 {
+  font-family: "Fira Sans";
 }
 .testimonial-container12 {
   gap: var(--dl-space-space-unit);
@@ -1555,6 +1620,9 @@
   align-items: center;
   flex-direction: column;
 }
+.contact-text2 {
+  font-family: "Fira Sans";
+}
 .contact-text3 {
   text-align: center;
 }
@@ -1589,12 +1657,7 @@
 .contact-text4 {
   align-self: stretch;
   text-align: center;
-}
-.contact-text5 {
-  text-align: center;
-}
-.contact-email {
-  text-align: center;
+  font-family: "Fira Sans";
 }
 .contact-content4 {
   gap: var(--dl-space-space-oneandhalfunits);
@@ -1621,12 +1684,7 @@
 .contact-text6 {
   align-self: stretch;
   text-align: center;
-}
-.contact-text7 {
-  text-align: center;
-}
-.contact-phone {
-  text-align: center;
+  font-family: "Fira Sans";
 }
 .contact-content6 {
   gap: var(--dl-space-space-oneandhalfunits);
@@ -1653,12 +1711,7 @@
 .contact-text8 {
   align-self: stretch;
   text-align: center;
-}
-.contact-text9 {
-  text-align: center;
-}
-.contact-address {
-  text-align: center;
+  font-family: "Fira Sans";
 }
 @media(max-width: 767px) {
   .contact-row {

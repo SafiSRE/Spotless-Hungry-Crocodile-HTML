@@ -11,8 +11,8 @@
   margin-bottom: var(--dl-space-space-fourunits);
   flex-direction: column;
 }
-.testimonial-text11 {
-  text-align: center;
+.testimonial-text10 {
+  font-family: "Fira Sans";
 }
 .testimonial-container12 {
   gap: var(--dl-space-space-unit);

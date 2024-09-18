@@ -27,6 +27,9 @@
   align-items: center;
   flex-direction: column;
 }
+.contact-text2 {
+  font-family: "Fira Sans";
+}
 .contact-text3 {
   text-align: center;
 }
@@ -61,12 +64,7 @@
 .contact-text4 {
   align-self: stretch;
   text-align: center;
-}
-.contact-text5 {
-  text-align: center;
-}
-.contact-email {
-  text-align: center;
+  font-family: "Fira Sans";
 }
 .contact-content4 {
   gap: var(--dl-space-space-oneandhalfunits);
@@ -93,12 +91,7 @@
 .contact-text6 {
   align-self: stretch;
   text-align: center;
-}
-.contact-text7 {
-  text-align: center;
-}
-.contact-phone {
-  text-align: center;
+  font-family: "Fira Sans";
 }
 .contact-content6 {
   gap: var(--dl-space-space-oneandhalfunits);
@@ -125,12 +118,7 @@
 .contact-text8 {
   align-self: stretch;
   text-align: center;
-}
-.contact-text9 {
-  text-align: center;
-}
-.contact-address {
-  text-align: center;
+  font-family: "Fira Sans";
 }
 @media(max-width: 767px) {
   .contact-row {

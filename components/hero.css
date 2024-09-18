@@ -25,16 +25,19 @@
   flex-direction: column;
 }
 .hero-text1 {
-  text-align: center;
-}
-.hero-text2 {
-  text-align: center;
+  font-family: "Fira Sans";
 }
 .hero-actions {
   gap: var(--dl-space-space-unit);
   display: flex;
   align-items: flex-start;
   padding-top: var(--dl-space-space-unit);
+}
+.hero-text3 {
+  text-decoration: none;
+}
+.hero-text4 {
+  text-decoration: none;
 }
 .hero-content2 {
   gap: var(--dl-space-space-oneandhalfunits);
