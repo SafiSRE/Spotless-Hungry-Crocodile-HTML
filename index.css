@@ -329,23 +329,7 @@
   display: flex;
   position: relative;
 }
-.features1-image1 {
-  animation-name: fadeIn;
-  animation-delay: 0s;
-  animation-duration: 300ms;
-  animation-direction: normal;
-  animation-iteration-count: 1;
-  animation-timing-function: ease;
-}
-.features1-image2 {
-  animation-name: fadeIn;
-  animation-delay: 0s;
-  animation-duration: 300ms;
-  animation-direction: normal;
-  animation-iteration-count: 1;
-  animation-timing-function: ease;
-}
-.features1-image3 {
+.features1-image {
   animation-name: fadeIn;
   animation-delay: 0s;
   animation-duration: 300ms;
@@ -672,23 +656,7 @@
   display: flex;
   position: relative;
 }
-.features2-image1 {
-  animation-name: fadeIn;
-  animation-delay: 0s;
-  animation-duration: 300ms;
-  animation-direction: normal;
-  animation-iteration-count: 1;
-  animation-timing-function: ease;
-}
-.features2-image2 {
-  animation-name: fadeIn;
-  animation-delay: 0s;
-  animation-duration: 300ms;
-  animation-direction: normal;
-  animation-iteration-count: 1;
-  animation-timing-function: ease;
-}
-.features2-image3 {
+.features2-image {
   animation-name: fadeIn;
   animation-delay: 0s;
   animation-duration: 300ms;
