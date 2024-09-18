@@ -289,7 +289,7 @@
 }
 @media(max-width: 991px) {
   .pricing-container {
-    flex-direction: column;
+    flex-direction: row;
   }
   .pricing-column3 {
     width: 100%;
