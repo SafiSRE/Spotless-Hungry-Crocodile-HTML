@@ -6,7 +6,7 @@
   position: relative;
   align-items: center;
   flex-shrink: 0;
-  flex-direction: colum;
+  flex-direction: column;
 }
 .pricing-max-width {
   gap: var(--dl-space-space-threeunits);
@@ -53,7 +53,6 @@
   animation-direction: normal;
   animation-iteration-count: 1;
   animation-timing-function: ease;
-  flex-direction: row;
 }
 .pricing-column1 {
   gap: var(--dl-space-space-twounits);
