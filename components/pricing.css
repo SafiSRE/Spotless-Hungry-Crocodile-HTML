@@ -53,7 +53,6 @@
   animation-direction: normal;
   animation-iteration-count: 1;
   animation-timing-function: ease;
-  flex-direction: row;
 }
 .pricing-column1 {
   gap: var(--dl-space-space-twounits);
@@ -66,7 +65,7 @@
   border-color: var(--dl-color-theme-neutral-dark);
   border-style: solid;
   border-width: 1px;
-  flex-direction: column;
+  flex-direction: row;
 }
 .pricing-price1 {
   gap: var(--dl-space-space-twounits);
@@ -136,7 +135,7 @@
   border-color: var(--dl-color-theme-neutral-dark);
   border-style: solid;
   border-width: 1px;
-  flex-direction: column;
+  flex-direction: row;
   background-color: var(--dl-color-theme-accent1);
 }
 .pricing-price3 {
@@ -214,7 +213,7 @@
   border-color: var(--dl-color-theme-neutral-dark);
   border-style: solid;
   border-width: 1px;
-  flex-direction: column;
+  flex-direction: row;
   background-color: var(--dl-color-theme-accent2);
 }
 .pricing-price5 {
@@ -289,7 +288,7 @@
 }
 @media(max-width: 991px) {
   .pricing-container {
-    flex-direction: row;
+    flex-direction: column;
   }
   .pricing-column3 {
     width: 100%;
